@@ -10,14 +10,41 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProteinTracker">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".SampleListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SampleListActivity"
+            android:exported="true"
+            android:label="Halaman Sample List">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ProteinTrackerActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".TableActivity"
+            android:exported="true"
+            android:label="Table Activity"></activity>
+        <activity
+            android:name=".ConstraintActivity"
+            android:exported="true"
+            android:label="Constraint Activity" />
+        <activity
+            android:name=".LinearActivity"
+            android:exported="true"
+            android:label="Linear Activity" />
+        <activity
+            android:name=".HelpActivity"
+            android:exported="true"
+            android:label="Help Activity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Main Activity" />
     </application>
 
 </manifest>
